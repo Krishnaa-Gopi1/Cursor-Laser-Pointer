@@ -12,7 +12,7 @@ This can be used for:
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 ### Hardware:
 
@@ -31,7 +31,7 @@ This can be used for:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Python reads your mouse cursor position using `pyautogui`.
 2. X and Y screen coordinates are scaled to **0–180**.
@@ -40,16 +40,16 @@ This can be used for:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. 🧠 Upload Arduino Code
+### 1.  Upload Arduino Code
 
 1. Open `arduino/servo_control.ino` in Arduino IDE.
 2. Select board: **Arduino Uno**
 3. Select correct **Port** (e.g., COM9).
 4. Upload the code.
 
-### 2. 🐍 Run Python Mouse Tracker
+### 2.  Run Python Mouse Tracker
 
 #### Setup (first time only):
 
@@ -70,7 +70,7 @@ python mouse_tracker.py
 
 ---
 
-## 🛠️ Wiring
+##  Wiring
 
 | Servo | Arduino Pin         |
 | ----- | ------------------- |
@@ -81,7 +81,7 @@ python mouse_tracker.py
 
 ---
 
-## 📦 Python Dependencies
+##  Python Dependencies
 
 ```
 pyserial
